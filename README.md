@@ -1,7 +1,9 @@
 # MTCNN
 MTCNN
-Joint Face Detection and Alignment using Multi-task Cascaded Convolutional Networks
+Joint Face Detection and Alignment using Multi-task Cascaded Convolutional Networks.
+
 this project is the https://github.com/kpzhang93/MTCNN_face_detection_alignment C++ version
+
 using the trained model https://github.com/kpzhang93/MTCNN_face_detection_alignment
 
 
@@ -21,4 +23,3 @@ using the trained model https://github.com/kpzhang93/MTCNN_face_detection_alignm
 
 
 
-C++ implement
