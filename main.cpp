@@ -664,7 +664,7 @@ vector< FaceDetector::BoundingBox > FaceDetector::Detect(const cv::Mat& img, con
         for(int k = 0; k < 5; k++)
         {
             //copy output layer to vector
-            Blob<float>* output_layer = O_Net->output_blobs()[k];
+            Blob<float>* output_layer = L_Net->output_blobs()[k];
             const float* begin = output_layer->cpu_data();
             const float* end = output_layer->count() + begin;
             vector<float> points(begin, end);
